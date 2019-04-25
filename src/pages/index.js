@@ -1,20 +1,21 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+import cx from "classnames";
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import styles from "./styles.module.css"
+import image1 from "../images/1.png";
+// import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className={cx(styles.wrapper, "container")}>
+      <div className="">
+        <div className={cx(styles.mainText, "text-center")}>Hold your horses. The wedding website will be up soon.</div>
+        <img className={cx(styles.image, "mx-auto")} src={image1}/>
+        <div className={cx(styles.subText,"text-center")}>Ozzy and Alanna</div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
