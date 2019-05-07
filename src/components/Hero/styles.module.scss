@@ -1,0 +1,65 @@
+.pageStyles {
+    background-color: #FDF6F2;
+    overflow: hidden;
+    height: auto;
+}
+
+.mainStyles {
+    
+}
+
+.wrapper {
+    box-sizing: border-box;
+}
+
+.titleText {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding-top: 160px;
+    margin-bottom: 80px;
+
+}
+
+.subTitle {
+    font-family: adobe-caslon-pro, serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 180%;
+    letter-spacing: 0.3em;
+    margin-bottom: 40px;
+
+    color: #8B8E81;
+}
+
+.dateBox {
+    box-sizing: border-box;
+    border: 1px solid #335477;
+    width: 568px;
+    height: 284px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    padding: 40px 40px 38px;
+}
+
+.dateBox__date {
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.dateBox__location {
+    line-height: 180%;
+}
+
+.venueName {
+    text-transform: uppercase;
+}
+
+.address {
+    text-transform: lowercase;
+}
