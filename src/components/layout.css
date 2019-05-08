@@ -1,6 +1,17 @@
 @import url("https://use.typekit.net/dhp8lig.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:300');
 
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
 body {
   font-family: adobe-caslon-pro, serif;
   color: #929589;
