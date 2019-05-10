@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
-import cx from "classnames";
+// import { Link } from "gatsby";
+// import cx from "classnames";
 
 import Layout from "../components/layout";
 import styles from "./styles.module.css";

@@ -1,0 +1,109 @@
+.pageStyles {
+    background-color: #FDF6F2;
+    overflow: hidden;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.mainStyles {
+    
+}
+
+.wrapper {
+    box-sizing: border-box;
+}
+
+.titleText {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding-top: 120px;
+    margin-bottom: 80px;
+
+    @media (max-width: 768px) {
+        font-size: 40px;
+        padding-top: 100px;
+    }
+}
+
+.subTitle {
+    font-family: adobe-caslon-pro, serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 180%;
+    letter-spacing: 0.3em;
+    margin-bottom: 40px;
+
+    color: #8B8E81;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+.dateBox {
+    box-sizing: border-box;
+    border: 1px solid #335477;
+    width: 568px;
+    height: 284px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    padding: 40px 40px 38px;
+
+    @media (max-width: 768px) {
+        width: 480px;
+    }
+
+    @media (max-width: 376px) {
+        width: 322px;
+        height: 336px;
+    }
+
+    @media (max-width: 320px) {
+        width: 264px;
+        height: 280px;
+    }
+}
+
+.dateBox__date {
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    
+    @media (max-width: 376px) {
+        line-height: 1.25em;
+    }
+}
+
+.dateBox__location {
+    line-height: 180%;
+}
+
+.venueName {
+    text-transform: uppercase;
+
+    @media (max-width: 376px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 320px) {
+        line-height: 1.25em;
+    }
+}
+
+.address {
+    text-transform: lowercase;
+
+    @media (max-width: 320px) {
+       font-size: 19px;
+       line-height: 1.25em;
+    }
+}
+
+.deadLine {
+    font-size: 21px;
+}
