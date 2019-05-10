@@ -1,10 +1,20 @@
 .button {
+  box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
   border: 1px solid #335477;
+  color: #335477;
   border-radius: 5px;
   padding: 8px 40px;
   background-color: transparent;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
   cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #335477;
+  }
 }
 
 

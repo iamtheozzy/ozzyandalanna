@@ -21,9 +21,10 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-8 offset-lg-2 mb-4 text-center">
-            <Button url="https://ozzyandalanna.app.rsvpify.com">RSVP</Button>
+            <Button className="mr-3" href="https://ozzyandalanna.app.rsvpify.com">RSVP</Button>
             <Button href="#" rel="noopener noreferrer">Registry</Button>
           </div>
+          <div className={cx("text-center mb-5", styles.deadLine)}>Please RSVP no later than June 22nd</div>
         </div>
       </div>
     </section>

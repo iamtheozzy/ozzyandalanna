@@ -2,6 +2,7 @@
     background-color: #FDF6F2;
     overflow: hidden;
     height: auto;
+    box-sizing: border-box;
 }
 
 .mainStyles {
@@ -21,9 +22,13 @@
     text-align: center;
     letter-spacing: 0.5em;
     text-transform: uppercase;
-    padding-top: 160px;
+    padding-top: 120px;
     margin-bottom: 80px;
 
+    @media (max-width: 768px) {
+        font-size: 40px;
+        padding-top: 100px;
+    }
 }
 
 .subTitle {
@@ -35,6 +40,10 @@
     margin-bottom: 40px;
 
     color: #8B8E81;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
 }
 
 .dateBox {
@@ -45,11 +54,29 @@
     margin-bottom: 80px;
     font-size: 24px;
     padding: 40px 40px 38px;
+
+    @media (max-width: 768px) {
+        width: 480px;
+    }
+
+    @media (max-width: 376px) {
+        width: 322px;
+        height: 336px;
+    }
+
+    @media (max-width: 320px) {
+        width: 264px;
+        height: 280px;
+    }
 }
 
 .dateBox__date {
     text-transform: uppercase;
     margin-bottom: 32px;
+    
+    @media (max-width: 376px) {
+        line-height: 1.25em;
+    }
 }
 
 .dateBox__location {
@@ -58,8 +85,25 @@
 
 .venueName {
     text-transform: uppercase;
+
+    @media (max-width: 376px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 320px) {
+        line-height: 1.25em;
+    }
 }
 
 .address {
     text-transform: lowercase;
+
+    @media (max-width: 320px) {
+       font-size: 19px;
+       line-height: 1.25em;
+    }
+}
+
+.deadLine {
+    font-size: 21px;
 }
