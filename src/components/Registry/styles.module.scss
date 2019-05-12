@@ -1,0 +1,23 @@
+.wrapper {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 80px 0;
+  color: #335477;
+
+  h1 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    margin-bottom: 24px;
+  }
+
+  P {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 24px;
+  }
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

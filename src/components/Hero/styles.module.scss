@@ -50,23 +50,22 @@
     box-sizing: border-box;
     border: 1px solid #335477;
     width: 568px;
-    height: 284px;
+    height: 100%;
     margin-bottom: 80px;
     font-size: 24px;
     padding: 40px 40px 38px;
+    overflow: hidden;
 
     @media (max-width: 768px) {
-        width: 480px;
+        width: 100%;
     }
 
     @media (max-width: 376px) {
-        width: 322px;
-        height: 336px;
+        height: 100%;
     }
 
     @media (max-width: 320px) {
-        width: 264px;
-        height: 280px;
+        height: 100%;
     }
 }
 
@@ -81,6 +80,10 @@
 
 .dateBox__location {
     line-height: 180%;
+
+    @media (max-width: 480px) {
+        line-height: 1.25em;
+    }
 }
 
 .venueName {
@@ -97,6 +100,7 @@
 
 .address {
     text-transform: lowercase;
+    line-height: 1.25em;
 
     @media (max-width: 320px) {
        font-size: 19px;
