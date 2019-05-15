@@ -4,6 +4,27 @@
   color: #335477;
 
   h1 {
+<<<<<<< HEAD
+    font-size: 48px;
+    letter-spacing: 0.2em;
+    margin-bottom: 24px;
+    color: #335477;
+
+    @media (max-width: 414px) {
+      font-size: 40px;
+    }
+  }
+
+  P {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 24px;
+    color: #335477;
+
+    @media (max-width: 414px) {
+      font-size: 18px;
+    }
+=======
     font-size: 3em;
     letter-spacing: 0.2em;
     margin-bottom: 24px;
@@ -13,6 +34,7 @@
     font-size: 1.3em;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 24px;
+>>>>>>> 4ff0c8356a62e5cb6fdd9c0c3c524eb142d215bd
   }
 }
 
@@ -20,4 +42,22 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+<<<<<<< HEAD
+
+  a {
+    opacity: .5;
+
+    &:visited {
+      opacity: .5;
+    }
+    
+    &:hover {
+      opacity: 1;
+    }
+
+  }
 }
+
+=======
+}
+>>>>>>> 4ff0c8356a62e5cb6fdd9c0c3c524eb142d215bd
