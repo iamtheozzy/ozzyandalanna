@@ -3,6 +3,7 @@
     overflow: hidden;
     height: auto;
     box-sizing: border-box;
+    padding-bottom: 40px;
 }
 
 .mainStyles {
@@ -33,9 +34,9 @@
 }
 
 .subTitle {
-    font-family: adobe-caslon-pro, serif;
+    font-family: Roboto Condensed;
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 24px;
     line-height: 180%;
     letter-spacing: 0.3em;
     margin-bottom: 40px;
@@ -45,17 +46,22 @@
     @media (max-width: 768px) {
         font-size: 18px;
     }
+
+    @media (max-width: 414px) {
+        font-size: 19px;
+        letter-spacing: 0;
+    }
 }
 
 .dateBox {
     box-sizing: border-box;
+    position: relative;
     border: 1px solid #335477;
     width: 568px;
     height: 100%;
     margin-bottom: 80px;
     font-size: 24px;
-    padding: 40px 40px 38px;
-    overflow: hidden;
+    padding: 40px 40px;
 
     @media (max-width: 768px) {
         width: 100%;
@@ -67,6 +73,7 @@
 
     @media (max-width: 320px) {
         height: 100%;
+        padding: 40px 38px;
     }
 }
 
@@ -80,9 +87,39 @@
     }
 }
 
+.floral_positioning {
+    position: absolute;
+    top: -25%;
+    right: -11%;
+
+    @media (max-width: 768px) {
+        width: 175px;
+    }
+
+    @media (max-width: 480px) {
+        width: 150px;
+        top: -17%;
+        right: -13%;
+    }
+
+    @media (max-width: 414px) {
+        width: 150px;
+        top: -15%;
+        right: -13%;
+    }
+
+    @media (max-width: 320px) {
+        width: 150px;
+        top: -15%;
+        right: -13%;
+    }
+}
+
 .dateBox__location {
     line-height: 180%;
+    cursor: pointer;
     color: #8B8E81;
+
 
     @media (max-width: 480px) {
         line-height: 1.25em;
@@ -114,6 +151,14 @@
 }
 
 .deadLine {
+
     color: #8B8E81;
     font-size: 21px;
+    @media (max-width: 320px) {
+        font-size: 17px;
+     }
+}
+
+.testing {
+    padding: 10px 0;
 }

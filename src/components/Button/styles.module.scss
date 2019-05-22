@@ -1,5 +1,4 @@
 .button {
-  box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
   border: 1px solid #335477;
   color: #335477;
@@ -8,6 +7,7 @@
   background-color: transparent;
   text-decoration: none;
   cursor: pointer;
+  
 
   &:hover {
     text-decoration: none;

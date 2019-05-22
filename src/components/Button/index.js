@@ -6,9 +6,9 @@ import styles from "./styles.module.scss";
 const Button = ({className, children, ...rest}) => {
   const classnames = `${styles.button} ${className}`
   return (
-    <React.Fragment>
+    <div>
       <a className={cx(classnames)} {...rest} >{children}</a>
-    </React.Fragment>
+    </div>
   );
 }
 
