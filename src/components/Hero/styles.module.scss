@@ -54,6 +54,7 @@
 }
 
 .dateBox {
+    font-family: Roboto Condensed;
     box-sizing: border-box;
     position: relative;
     border: 1px solid #335477;
@@ -116,6 +117,7 @@
 }
 
 .dateBox__location {
+    font-family: Roboto Condensed;
     line-height: 180%;
     cursor: pointer;
     color: #8B8E81;
@@ -127,6 +129,7 @@
 }
 
 .venueName {
+    font-family: Roboto Condensed;
     text-transform: uppercase;
     color: #8B8E81;
 
@@ -140,6 +143,7 @@
 }
 
 .address {
+    font-family: Roboto Condensed;
     text-transform: lowercase;
     line-height: 1.25em;
     color: #8B8E81;
@@ -151,7 +155,7 @@
 }
 
 .deadLine {
-
+    font-family: Roboto Condensed;
     color: #8B8E81;
     font-size: 21px;
     @media (max-width: 320px) {

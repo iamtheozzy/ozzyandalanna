@@ -14,6 +14,7 @@
   margin-bottom: 48px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: #8B8E81;
 
   @media (max-width: 414px) {
     font-size: 30px;
@@ -21,7 +22,7 @@
   }
 
   @media (max-width: 320px) {
-    font-size: 28px;
+    font-size: 26px;
     margin-bottom: 40px;
   }
 }
@@ -29,12 +30,14 @@
 .hotelinfo {
   font-size: 21px;
   line-height: 1.25em;
+  color: #8B8E81;
 }
 
 .rooms {
   font-size: 18px;
   letter-spacing: .1em;
   line-height: 1.25em;
+  color: #8B8E81;
   a {
     color: #335477;
     cursor: pointer;
